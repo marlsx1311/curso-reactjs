@@ -2,9 +2,9 @@ import React from "react";
 
 function TodoList(props){
     return (
-        <div>
-            
-        </div>
+        <ul>
+            {props.children}
+        </ul>
     );
 }
 export {TodoList};
